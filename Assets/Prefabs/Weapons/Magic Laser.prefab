@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7079533050745391491}
   - component: {fileID: 7571076761232205598}
   - component: {fileID: 7366292710339531876}
+  - component: {fileID: 6299896970014215299}
   m_Layer: 0
   m_Name: Magic Laser
   m_TagString: Untagged
@@ -87,7 +88,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!70 &1445805023781659102
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -120,8 +121,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.010322218, y: 0.025804909}
-  m_Size: {x: 0.8761351, y: 0.45292705}
+  m_Offset: {x: 0.49243912, y: 0.010521533}
+  m_Size: {x: 0.856692, y: 0.42236924}
   m_Direction: 1
 --- !u!50 &7079533050745391491
 Rigidbody2D:
@@ -174,3 +175,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93e5c8806ab21164492eaaf25ce09a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  laserGrowTime: 0.22
+--- !u!114 &6299896970014215299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6949948659899765156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc551f8aab88a554da920b228d445073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeTime: 0.4

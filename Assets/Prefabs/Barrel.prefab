@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 272246699284336792}
   - component: {fileID: 2557464810518405539}
   - component: {fileID: 847196903064972241}
+  - component: {fileID: 8952088923616301401}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Untagged
@@ -134,3 +135,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyVFX: {fileID: 3792983522941498265, guid: 7b31f10d51f59bb48a19d71a2b32965d, type: 3}
+--- !u!114 &8952088923616301401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574048621935271243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0418e79e12bbdb64c80a028336f9de34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 7906476976049979258, guid: e4d5d9db398a9cf40b8cea5078f4f134, type: 3}
+  healthGlobe: {fileID: 7906476976049979258, guid: 3938692509a66314e8b77fbc09564194, type: 3}
+  staminaGlobe: {fileID: 7906476976049979258, guid: 33765022701642e498551779a64fe918, type: 3}
