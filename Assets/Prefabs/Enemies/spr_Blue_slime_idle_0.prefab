@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 8258441955858668098}
   - component: {fileID: 8729685477141745770}
   - component: {fileID: 4381760457277064435}
+  - component: {fileID: 6263957812226333687}
   m_Layer: 0
   m_Name: spr_Blue_slime_idle_0
   m_TagString: Untagged
@@ -166,6 +167,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48d3aa591bc809d4e8c4f115d1c5b3fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roamChangeDirFloat: 2
+  attackRange: 0
+  enemyType: {fileID: 0}
+  attackCooldown: 2
+  stopMovingWhileAttacking: 0
 --- !u!114 &430760213928943730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,6 +220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHealth: 3
   deathVFXPrefab: {fileID: 8946565695690021350, guid: 903148a3c15165a47826f02180db9331, type: 3}
+  knockBackThrust: 15
 --- !u!114 &8729685477141745770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,3 +249,18 @@ MonoBehaviour:
   whiteFlashMat: {fileID: 2100000, guid: dff21546c67d53d4c99fd49ec132efca, type: 2}
   restoreDefaultMatTime: 0.2
   spriteRenderer: {fileID: 0}
+--- !u!114 &6263957812226333687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424721053914624031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0418e79e12bbdb64c80a028336f9de34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 7906476976049979258, guid: e4d5d9db398a9cf40b8cea5078f4f134, type: 3}
+  healthGlobe: {fileID: 7906476976049979258, guid: 3938692509a66314e8b77fbc09564194, type: 3}
+  staminaGlobe: {fileID: 7906476976049979258, guid: 33765022701642e498551779a64fe918, type: 3}
